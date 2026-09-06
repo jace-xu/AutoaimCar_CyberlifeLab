@@ -29,3 +29,9 @@ Left: our robot for Problem E of the 2025 National Undergraduate Electronic Desi
 - [Car_TI_M0/](Car_TI_M0/): Chassis control firmware.
 - [Pi5_CV/](Pi5_CV/): Computer vision code.
 - [Report.pdf](Report.pdf): Full project report (Chinese).
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0-only). See [LICENSE](LICENSE) for the full text.
+
+Third-party components retain their original licenses.
