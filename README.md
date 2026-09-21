@@ -6,7 +6,7 @@ A team robotics project for the 2026 Xingkun Cup Electronic Design Competition (
 
 - **Motion control:** TI MSPM0G3507 with encoder feedback, PID speed control, grayscale line tracking, and IMU heading control.
 - **Computer vision:** Raspberry Pi 5 with Python and OpenCV for target detection, perspective correction, and circular trajectory generation.
-- **Stabilized gimbal:** STM32-controlled GM6020 brushless motors with IMU feedback and a slip ring for continuous 360-degree rotation.
+- **Stabilized gimbal:** STM32-controlled GM6020 brushless motors with CAN communication, PID speed control, IMU feedback, and a slip ring for continuous 360-degree rotation.
 - **Custom hardware:** A SolidWorks-designed chassis, a custom controller expansion board, and a power distribution board.
 
 ## Photos
@@ -28,6 +28,7 @@ Left: our robot for Problem E of the 2025 National Undergraduate Electronic Desi
 
 - [Car_TI_M0/](Car_TI_M0/): Chassis control firmware.
 - [Pi5_CV/](Pi5_CV/): Computer vision code.
+- [STM32/](STM32/): Gimbal motor control source code, including CAN communication, PID speed control, and VOFA+ debugging.
 - [Report.pdf](Report.pdf): Full project report (Chinese).
 
 ## License
