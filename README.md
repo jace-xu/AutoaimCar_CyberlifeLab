@@ -7,7 +7,7 @@ An autonomous mobile robot for visual aiming and target tracking, developed at S
 - **Chassis:** TI MSPM0G3507 with PID speed control, line tracking, and IMU heading control.
 - **Vision:** Raspberry Pi 5 and OpenCV for target detection, perspective correction, and circular trajectory generation.
 - **Gimbal:** STM32-controlled GM6020 motors, CAN communication, and IMU feedback for stabilized aiming.
-- **Hardware:** Custom chassis, controller expansion board, and power distribution board.
+- **Hardware:** Custom SolidWorks chassis and gimbal structures, controller expansion board, and power distribution board.
 
 <p align="center">
   <img src="1.jpg" alt="Assembled AutoaimCar platform" width="58%">
@@ -23,6 +23,8 @@ An autonomous mobile robot for visual aiming and target tracking, developed at S
 Using this platform, we compared direct visual and gyroscope-assisted dual-loop PID for mobile aiming under obstacle impacts, motivated by firefighting applications. Gyroscope assistance reduced mean peak aiming errors across all tested conditions; RMSE performance depended on the terrain. See the [research poster](Research_poster.pdf) for methods and results.
 
 ## Repository
+
+- [Car_Structure_v1/](Car_Structure_v1/): SolidWorks mechanical assemblies, parts, and standard component library.
 
 - [Car_TI_M0/](Car_TI_M0/): Chassis firmware.
 - [Pi5_CV/](Pi5_CV/): Vision and trajectory generation code.
